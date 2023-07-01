@@ -1,0 +1,37 @@
+.wrapper {
+    margin-top: 100px;
+    height: 100%;
+    display: flex;
+    column-gap: 20px;
+}
+
+ #parent {
+    position: relative;
+    background-color: #1297decc;
+    width: 500px;
+    height: 500px;
+}
+
+#child {
+    position: absolute;
+    right: 400px;
+    background-color: #ff0303cc;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#right {
+    margin-left: 50px;
+} */
+
+.profile {
+    width: 100px;
+    height: 100%;
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
